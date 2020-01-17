@@ -1,0 +1,17 @@
+Package: logitreg
+Title: Fitting and Plotting Logistic Regression
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Marianna",
+           family = "Plesiak",
+           role = c("aut", "cre"),
+           email = "mariannaplesiak207@ukr.net")
+Description: Functions to fit and plot logistic regression model.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Imports: stats, checkmate
+Suggests: 
+    testthat
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
