@@ -16,14 +16,14 @@ sim_data(n = 1500, numerics = 3, factors = 0, seed = NULL,
 
 \item{seed}{seed for reproducibility}
 
-\item{dataframe}{logical; if $TRUE$ dataframe as output, otherwise matrix}
+\item{dataframe}{logical; if \code{TRUE} dataframe as output, otherwise matrix}
 }
 \value{
 list with three components:
 \itemize{
-\item $design$         model matrix for covariates
-\item $response$       numeric vector of responses
-\item $coefs$          true coefficients with which synthetic data are simulated
+\item \code{design} model matrix for covariates
+\item \code{response} numeric vector of responses
+\item \code{coefs} true coefficients with which synthetic data are simulated
 }
 }
 \description{
